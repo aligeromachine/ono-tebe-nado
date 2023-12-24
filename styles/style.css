@@ -1,1 +1,15 @@
 /* место для вашего кода */
+.header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 10px;
+  margin-top: 92px;
+  width: 1052px;
+  height: 105px;
+  left: 24px;
+}
+
+.header__img {
+  height: 105px;
+}
+
